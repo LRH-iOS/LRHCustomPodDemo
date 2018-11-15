@@ -9,16 +9,15 @@
 /* Begin PBXBuildFile section */
 		00B2F309CE3AFAE7F6A54D7DA45F7EEA /* Pods-LRHCustomPodDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A7AD8FE02EEAC1B867073CF2AA6C13 /* Pods-LRHCustomPodDemo_Example-dummy.m */; };
 		04207F5D086D7F3904D306B9DE61418B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		1128C6ED44C20EC65B748AB7F003BEBA /* LRHCustomPodDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E9001EE07A7FDB2EB81620A7CA8BD7 /* LRHCustomPodDemo-dummy.m */; };
-		3C82DADD9CFE5F42DDBCA20E4BFC97CF /* LRHCustomPodDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1133695F0630945217BD5400C3E186 /* LRHCustomPodDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65811A00FAE20C9CC35CAB5D65833976 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE1A6515DD50D89A4679906B4C4034D /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E5FD615492A90DD4D402D6C8B44B9C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8E8166824CA08B8C35EFDF11A0AFF218 /* Pods-LRHCustomPodDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEBDC15E16F6F0FE506D4575907F8BB9 /* Pods-LRHCustomPodDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A29971A0219D743500EBBC5E /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A299719E219D743500EBBC5E /* TestViewController.h */; };
-		A29971A1219D743500EBBC5E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A299719F219D743500EBBC5E /* TestViewController.m */; };
-		AC484B94F0C9663450459C6CC58910EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B1BD408FD1885EC1224EF2926384ED72 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 79698349F0FE6A25F9B187662F7EE362 /* ReplaceMe.m */; };
 		BBB598CC78DAC6815C0ED946CB262013 /* Pods-LRHCustomPodDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C99B14210F4012168FE75FAAA8F36F6D /* Pods-LRHCustomPodDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2A525FFACED3C6F4AC806263883DFEB /* LRHCustomPodDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD534D27A0BDB060AF8F1B7E467CDB8 /* LRHCustomPodDemo-dummy.m */; };
+		C4AEBEFE2C5D24517E435567FAD20D8F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC66176C056D119C925F895DF0848409 /* TestViewController.m */; };
 		C7A3FA71BF6837C06231EEF716259F0A /* Pods-LRHCustomPodDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 922AE10428318062C72ACD4857DFAE02 /* Pods-LRHCustomPodDemo_Tests-dummy.m */; };
 		DB3656BF98AF279BB2B053F4EA08338D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		ECBCA330E164FD5188259AA9F77A44A8 /* LRHCustomPodDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B94C38E6A07655A0FE88279177298E /* LRHCustomPodDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7E2C563DDBBBC26B0A888B9F8740C940;
+			remoteGlobalIDString = C27169CD2F7EE3C88A47412E5EB8B260;
 			remoteInfo = LRHCustomPodDemo;
 		};
 		CEA615433B49AC239672EEAB5E3CC10B /* PBXContainerItemProxy */ = {
@@ -39,43 +38,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1DD836A4B84AD0F8AC61FC9E80E9229D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		20B6E5972C5EA276B879EF56E2F6AB04 /* Pods-LRHCustomPodDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRHCustomPodDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		21C849030D28B98CA984DED0955AE597 /* Pods-LRHCustomPodDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRHCustomPodDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		32E9001EE07A7FDB2EB81620A7CA8BD7 /* LRHCustomPodDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRHCustomPodDemo-dummy.m"; sourceTree = "<group>"; };
 		3A38C497630AF7A39955BB4FBCD9DFB2 /* Pods-LRHCustomPodDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRHCustomPodDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BBCA71AAAE67A4F14D248115EDD7B8C /* Pods-LRHCustomPodDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRHCustomPodDemo_Tests-resources.sh"; sourceTree = "<group>"; };
+		3FD534D27A0BDB060AF8F1B7E467CDB8 /* LRHCustomPodDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRHCustomPodDemo-dummy.m"; sourceTree = "<group>"; };
 		411D2EB2E57FD4BC81A496D989BD5DD4 /* Pods-LRHCustomPodDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRHCustomPodDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		50804CBB13566FAAA2937C32E1126B02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4EA4DB233823AC7195367E0AB133DECC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		51E140E15BA44898BC87B86E170F1F41 /* Pods-LRHCustomPodDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRHCustomPodDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5724221B3DC4274F9EDE77B34C1E4402 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5A8F4251A28BE15A1C6BC5FCF674E32D /* LRHCustomPodDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRHCustomPodDemo.modulemap; sourceTree = "<group>"; };
-		67545EFBFE6D3680F4A3CD3D61198220 /* Pods_LRHCustomPodDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRHCustomPodDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B94C38E6A07655A0FE88279177298E /* LRHCustomPodDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRHCustomPodDemo-umbrella.h"; sourceTree = "<group>"; };
+		67545EFBFE6D3680F4A3CD3D61198220 /* Pods_LRHCustomPodDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRHCustomPodDemo_Tests.framework; path = "Pods-LRHCustomPodDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFF6E9D07AE4526B82DB4BD3232673D /* LRHCustomPodDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRHCustomPodDemo-prefix.pch"; sourceTree = "<group>"; };
 		6DEEC56ECEB68A8AE84F076659513B04 /* Pods-LRHCustomPodDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRHCustomPodDemo_Example.modulemap"; sourceTree = "<group>"; };
-		6F1133695F0630945217BD5400C3E186 /* LRHCustomPodDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRHCustomPodDemo-umbrella.h"; sourceTree = "<group>"; };
 		71605ED621A1744AD2C50AE4C55093C6 /* Pods-LRHCustomPodDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRHCustomPodDemo_Tests.modulemap"; sourceTree = "<group>"; };
 		74A7AD8FE02EEAC1B867073CF2AA6C13 /* Pods-LRHCustomPodDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRHCustomPodDemo_Example-dummy.m"; sourceTree = "<group>"; };
-		79698349F0FE6A25F9B187662F7EE362 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LRHCustomPodDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7F24B0C45A884E5D193F8B48889B5896 /* LRHCustomPodDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRHCustomPodDemo.xcconfig; sourceTree = "<group>"; };
+		886FECCF14D2C60EAF23AB69DB5DD7FF /* LRHCustomPodDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRHCustomPodDemo.modulemap; sourceTree = "<group>"; };
+		90DF0602DEE8B4FDF081EAF14C4EA960 /* LRHCustomPodDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LRHCustomPodDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		922AE10428318062C72ACD4857DFAE02 /* Pods-LRHCustomPodDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRHCustomPodDemo_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95A4A7A66FC425CA213F82FD809D6031 /* Pods_LRHCustomPodDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRHCustomPodDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		930F00B9F352B665FEFE1B2244D3C05E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A4A7A66FC425CA213F82FD809D6031 /* Pods_LRHCustomPodDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRHCustomPodDemo_Example.framework; path = "Pods-LRHCustomPodDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E33BB7CB0FA93ED6A48421E3A52A35 /* Pods-LRHCustomPodDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRHCustomPodDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D12F07450346C8C4FDC19C1827C8A5E /* Pods-LRHCustomPodDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRHCustomPodDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A1454F94A28DDF9F3B85437C2804B619 /* LRHCustomPodDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRHCustomPodDemo-prefix.pch"; sourceTree = "<group>"; };
-		A299719E219D743500EBBC5E /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		A299719F219D743500EBBC5E /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		A9C5514D6C620C6A37F44362A3788494 /* LRHCustomPodDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRHCustomPodDemo.xcconfig; sourceTree = "<group>"; };
+		A0890798264B3CC649BB43DAA9688C66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B17F45D8CE10FF93F8BD3DA58603FB78 /* Pods-LRHCustomPodDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRHCustomPodDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BD8E3836517394F73F2B0E2B93C3E4F0 /* LRHCustomPodDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LRHCustomPodDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BEBDC15E16F6F0FE506D4575907F8BB9 /* Pods-LRHCustomPodDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRHCustomPodDemo_Example-umbrella.h"; sourceTree = "<group>"; };
 		BF227887DE144A1CB79D1726756BE3B7 /* Pods-LRHCustomPodDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRHCustomPodDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C99B14210F4012168FE75FAAA8F36F6D /* Pods-LRHCustomPodDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRHCustomPodDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D98669E2AF18761FA83EDB061F8AFD42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC66176C056D119C925F895DF0848409 /* TestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = LRHCustomPodDemo/Classes/TestViewController.m; sourceTree = "<group>"; };
+		DFE1A6515DD50D89A4679906B4C4034D /* TestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = LRHCustomPodDemo/Classes/TestViewController.h; sourceTree = "<group>"; };
 		E36277144182FC5AD567A534BDE96DD9 /* Pods-LRHCustomPodDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRHCustomPodDemo_Example-resources.sh"; sourceTree = "<group>"; };
 		EA775840593D48B3CF3D76F63965FB60 /* Pods-LRHCustomPodDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRHCustomPodDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ECEE55C3106FE7E6058540765BBF435F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F351F051054A12947D9F502B328AF02C /* LRHCustomPodDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LRHCustomPodDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F351F051054A12947D9F502B328AF02C /* LRHCustomPodDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRHCustomPodDemo.framework; path = LRHCustomPodDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +93,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48A0E5456F59503089547B3A4B870395 /* Frameworks */ = {
+		3FA8CE4F501B8BB9B4559407ACED428D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC484B94F0C9663450459C6CC58910EA /* Foundation.framework in Frameworks */,
+				6E5FD615492A90DD4D402D6C8B44B9C6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +131,14 @@
 			path = "Target Support Files/Pods-LRHCustomPodDemo_Example";
 			sourceTree = "<group>";
 		};
+		58FD61A9850D51ACEE6080F138B85482 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8881614CE25AE06E7EA71E175D02330 /* LRHCustomPodDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		5D02AC9FEEE439EE85ED64E41EAD5CA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,33 +157,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		68B9CFFD1E7083EB2831B2BD1229860E /* LRHCustomPodDemo */ = {
+		736FEC02C74330B52BA5D631401EAA4A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				79698349F0FE6A25F9B187662F7EE362 /* ReplaceMe.m */,
-				7847EAD41088AD84C82BA8059C39373A /* Pod */,
-				D5363CA2C4508D26EE470AB36E0C9E42 /* Support Files */,
-				A299719E219D743500EBBC5E /* TestViewController.h */,
-				A299719F219D743500EBBC5E /* TestViewController.m */,
-			);
-			name = LRHCustomPodDemo;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		72FFE7B766B9D1B96B37CA2C5C9AB42D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				68B9CFFD1E7083EB2831B2BD1229860E /* LRHCustomPodDemo */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7847EAD41088AD84C82BA8059C39373A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1DD836A4B84AD0F8AC61FC9E80E9229D /* LICENSE */,
-				BD8E3836517394F73F2B0E2B93C3E4F0 /* LRHCustomPodDemo.podspec */,
-				50804CBB13566FAAA2937C32E1126B02 /* README.md */,
+				4EA4DB233823AC7195367E0AB133DECC /* LICENSE */,
+				90DF0602DEE8B4FDF081EAF14C4EA960 /* LRHCustomPodDemo.podspec */,
+				A0890798264B3CC649BB43DAA9688C66 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -186,7 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				72FFE7B766B9D1B96B37CA2C5C9AB42D /* Development Pods */,
+				58FD61A9850D51ACEE6080F138B85482 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				5D02AC9FEEE439EE85ED64E41EAD5CA2 /* Products */,
 				071F60A5667FB49200AF7822570C126C /* Targets Support Files */,
@@ -211,6 +196,18 @@
 			path = "Target Support Files/Pods-LRHCustomPodDemo_Tests";
 			sourceTree = "<group>";
 		};
+		B8881614CE25AE06E7EA71E175D02330 /* LRHCustomPodDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFE1A6515DD50D89A4679906B4C4034D /* TestViewController.h */,
+				DC66176C056D119C925F895DF0848409 /* TestViewController.m */,
+				736FEC02C74330B52BA5D631401EAA4A /* Pod */,
+				D36A8E9ABCA64E09E80A41AAF45C1091 /* Support Files */,
+			);
+			name = LRHCustomPodDemo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,15 +216,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5363CA2C4508D26EE470AB36E0C9E42 /* Support Files */ = {
+		D36A8E9ABCA64E09E80A41AAF45C1091 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5724221B3DC4274F9EDE77B34C1E4402 /* Info.plist */,
-				5A8F4251A28BE15A1C6BC5FCF674E32D /* LRHCustomPodDemo.modulemap */,
-				A9C5514D6C620C6A37F44362A3788494 /* LRHCustomPodDemo.xcconfig */,
-				32E9001EE07A7FDB2EB81620A7CA8BD7 /* LRHCustomPodDemo-dummy.m */,
-				A1454F94A28DDF9F3B85437C2804B619 /* LRHCustomPodDemo-prefix.pch */,
-				6F1133695F0630945217BD5400C3E186 /* LRHCustomPodDemo-umbrella.h */,
+				930F00B9F352B665FEFE1B2244D3C05E /* Info.plist */,
+				886FECCF14D2C60EAF23AB69DB5DD7FF /* LRHCustomPodDemo.modulemap */,
+				7F24B0C45A884E5D193F8B48889B5896 /* LRHCustomPodDemo.xcconfig */,
+				3FD534D27A0BDB060AF8F1B7E467CDB8 /* LRHCustomPodDemo-dummy.m */,
+				6CFF6E9D07AE4526B82DB4BD3232673D /* LRHCustomPodDemo-prefix.pch */,
+				62B94C38E6A07655A0FE88279177298E /* LRHCustomPodDemo-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LRHCustomPodDemo";
@@ -236,20 +233,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		10BFC3D2E77DE17F2BDCC7C18C72AB94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBCA330E164FD5188259AA9F77A44A8 /* LRHCustomPodDemo-umbrella.h in Headers */,
+				65811A00FAE20C9CC35CAB5D65833976 /* TestViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C052586A5035A4B366AF3902D3E5524 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BBB598CC78DAC6815C0ED946CB262013 /* Pods-LRHCustomPodDemo_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AB7437A99137FFE93EAEA31BB3C8375 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C82DADD9CFE5F42DDBCA20E4BFC97CF /* LRHCustomPodDemo-umbrella.h in Headers */,
-				A29971A0219D743500EBBC5E /* TestViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +299,14 @@
 			productReference = 67545EFBFE6D3680F4A3CD3D61198220 /* Pods_LRHCustomPodDemo_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7E2C563DDBBBC26B0A888B9F8740C940 /* LRHCustomPodDemo */ = {
+		C27169CD2F7EE3C88A47412E5EB8B260 /* LRHCustomPodDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C2E59F7AF30711C5E027CFD91907035 /* Build configuration list for PBXNativeTarget "LRHCustomPodDemo" */;
+			buildConfigurationList = E53B66E0D799ACE7A4F0F42FC81941F8 /* Build configuration list for PBXNativeTarget "LRHCustomPodDemo" */;
 			buildPhases = (
-				6AB7437A99137FFE93EAEA31BB3C8375 /* Headers */,
-				5A1D1A1C200B0BAB918F6E7BD412C784 /* Sources */,
-				48A0E5456F59503089547B3A4B870395 /* Frameworks */,
-				892244187451419C38DB7CE5B214AF00 /* Resources */,
+				10BFC3D2E77DE17F2BDCC7C18C72AB94 /* Headers */,
+				456BE4705F688F7F144B3CFC5A96917E /* Sources */,
+				3FA8CE4F501B8BB9B4559407ACED428D /* Frameworks */,
+				7188D20AB90C13704F8CDF9CA2720399 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -341,7 +338,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E2C563DDBBBC26B0A888B9F8740C940 /* LRHCustomPodDemo */,
+				C27169CD2F7EE3C88A47412E5EB8B260 /* LRHCustomPodDemo */,
 				187ABBEB8D40B04C53C14C2EF4B07087 /* Pods-LRHCustomPodDemo_Example */,
 				6D07CC62437AA330D4BBA123FAFC1277 /* Pods-LRHCustomPodDemo_Tests */,
 			);
@@ -349,7 +346,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		892244187451419C38DB7CE5B214AF00 /* Resources */ = {
+		7188D20AB90C13704F8CDF9CA2720399 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,21 +370,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		456BE4705F688F7F144B3CFC5A96917E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A525FFACED3C6F4AC806263883DFEB /* LRHCustomPodDemo-dummy.m in Sources */,
+				C4AEBEFE2C5D24517E435567FAD20D8F /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48E54D35F813600382F50C4075FE5DAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				00B2F309CE3AFAE7F6A54D7DA45F7EEA /* Pods-LRHCustomPodDemo_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A1D1A1C200B0BAB918F6E7BD412C784 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A29971A1219D743500EBBC5E /* TestViewController.m in Sources */,
-				1128C6ED44C20EC65B748AB7F003BEBA /* LRHCustomPodDemo-dummy.m in Sources */,
-				B1BD408FD1885EC1224EF2926384ED72 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +401,7 @@
 		183C4335FCA8DA1A0092BB5593B37AEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LRHCustomPodDemo;
-			target = 7E2C563DDBBBC26B0A888B9F8740C940 /* LRHCustomPodDemo */;
+			target = C27169CD2F7EE3C88A47412E5EB8B260 /* LRHCustomPodDemo */;
 			targetProxy = 9E6B41F4D1193CCEF7F3363910A08B24 /* PBXContainerItemProxy */;
 		};
 		9E39B70D880C850E6D318A671A6FC5CD /* PBXTargetDependency */ = {
@@ -449,37 +445,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		1307B8DB2A42A04633F2A3D4320F72F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9C5514D6C620C6A37F44362A3788494 /* LRHCustomPodDemo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LRHCustomPodDemo/LRHCustomPodDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LRHCustomPodDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LRHCustomPodDemo/LRHCustomPodDemo.modulemap";
-				PRODUCT_MODULE_NAME = LRHCustomPodDemo;
-				PRODUCT_NAME = LRHCustomPodDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -607,9 +572,9 @@
 			};
 			name = Release;
 		};
-		7CB9D066DBEECD44A3D8F9DD54A9D50C /* Debug */ = {
+		9E44E714A701357B5799B15F1EE52911 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9C5514D6C620C6A37F44362A3788494 /* LRHCustomPodDemo.xcconfig */;
+			baseConfigurationReference = 7F24B0C45A884E5D193F8B48889B5896 /* LRHCustomPodDemo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -701,6 +666,37 @@
 			};
 			name = Debug;
 		};
+		CA5A6E90BC8C371779602FA787C5AC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F24B0C45A884E5D193F8B48889B5896 /* LRHCustomPodDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRHCustomPodDemo/LRHCustomPodDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRHCustomPodDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRHCustomPodDemo/LRHCustomPodDemo.modulemap";
+				PRODUCT_MODULE_NAME = LRHCustomPodDemo;
+				PRODUCT_NAME = LRHCustomPodDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EF75E90FD02CD3CAF156043025A11784 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 20B6E5972C5EA276B879EF56E2F6AB04 /* Pods-LRHCustomPodDemo_Example.release.xcconfig */;
@@ -738,15 +734,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C2E59F7AF30711C5E027CFD91907035 /* Build configuration list for PBXNativeTarget "LRHCustomPodDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7CB9D066DBEECD44A3D8F9DD54A9D50C /* Debug */,
-				1307B8DB2A42A04633F2A3D4320F72F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1D91A671FC8FD7D072F360AE993096A3 /* Build configuration list for PBXNativeTarget "Pods-LRHCustomPodDemo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -770,6 +757,15 @@
 			buildConfigurations = (
 				64DFD228FBD30A2E2ED6FBBDF0E681AE /* Debug */,
 				66F9E4217F47D575886F778C70B745D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E53B66E0D799ACE7A4F0F42FC81941F8 /* Build configuration list for PBXNativeTarget "LRHCustomPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E44E714A701357B5799B15F1EE52911 /* Debug */,
+				CA5A6E90BC8C371779602FA787C5AC0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
