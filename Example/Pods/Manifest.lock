@@ -1,0 +1,16 @@
+PODS:
+  - LRHCustomPodDemo (0.1.0)
+
+DEPENDENCIES:
+  - LRHCustomPodDemo (from `../`)
+
+EXTERNAL SOURCES:
+  LRHCustomPodDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LRHCustomPodDemo: eddb75453262d1839d79cbbc579256f4ee6873e3
+
+PODFILE CHECKSUM: 84befcaa28f7c5a37ed760e546326041bedc7304
+
+COCOAPODS: 1.5.3

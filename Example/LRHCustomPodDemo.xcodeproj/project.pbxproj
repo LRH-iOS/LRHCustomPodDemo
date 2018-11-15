@@ -63,9 +63,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C397CBED828AF0E3FBEC7198 /* Pods_LRHCustomPodDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRHCustomPodDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8EB95B089FD86BE3888967 /* Pods-LRHCustomPodDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRHCustomPodDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LRHCustomPodDemo_Example/Pods-LRHCustomPodDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DDB50D49EF16B59CD961B80A /* LRHCustomPodDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LRHCustomPodDemo.podspec; path = ../LRHCustomPodDemo.podspec; sourceTree = "<group>"; };
-		E5E905FCECB3F9463159EB8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FC7347FC96F138735E1C8B3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DDB50D49EF16B59CD961B80A /* LRHCustomPodDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LRHCustomPodDemo.podspec; path = ../LRHCustomPodDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E5E905FCECB3F9463159EB8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FC7347FC96F138735E1C8B3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FD0A6BC4E71FE641C6F3EEE6 /* Pods-LRHCustomPodDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRHCustomPodDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LRHCustomPodDemo_Example/Pods-LRHCustomPodDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

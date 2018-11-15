@@ -1,0 +1,6 @@
+framework module Pods_LRHCustomPodDemo_Example {
+  umbrella header "Pods-LRHCustomPodDemo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
