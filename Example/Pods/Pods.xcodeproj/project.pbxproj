@@ -86,6 +86,8 @@
 		A14697B6F9090D15F08EFE1CEDEA1EAA /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B9A78BC63CB234A6C6F1A8E79C7E75 /* YYTextMagnifier.m */; };
 		A276CDE021BFB41800C52C15 /* FolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A276CDDE21BFB41800C52C15 /* FolderViewController.m */; };
 		A276CDE121BFB41800C52C15 /* FolderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A276CDDF21BFB41800C52C15 /* FolderViewController.h */; };
+		A276CDE421BFB9EE00C52C15 /* TestFolViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A276CDE221BFB9EE00C52C15 /* TestFolViewController.h */; };
+		A276CDE521BFB9EE00C52C15 /* TestFolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A276CDE321BFB9EE00C52C15 /* TestFolViewController.m */; };
 		A39E1924915C53C49E7220F72AD96BBB /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F17403D780B2A82E41F3CD6111736A5B /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3F7DF80771C8E17FEE01F2912AD0A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D0EA9C40BDD823DA291B4EA1437311 /* Foundation.framework */; };
 		A707F33AF9BDB27BD95432DFB1E2E97A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56700A25F68681036583AA54B2044F7B /* MobileCoreServices.framework */; };
@@ -266,6 +268,8 @@
 		A0D789CB7A9BDD9E8558BF7BF33D9C71 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPasteboard+YYText.h"; path = "YYText/Utility/UIPasteboard+YYText.h"; sourceTree = "<group>"; };
 		A276CDDE21BFB41800C52C15 /* FolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderViewController.m; sourceTree = "<group>"; };
 		A276CDDF21BFB41800C52C15 /* FolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderViewController.h; sourceTree = "<group>"; };
+		A276CDE221BFB9EE00C52C15 /* TestFolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestFolViewController.h; path = LRHCustomPodDemo/Classes/TestFol/TestFolViewController.h; sourceTree = "<group>"; };
+		A276CDE321BFB9EE00C52C15 /* TestFolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestFolViewController.m; path = LRHCustomPodDemo/Classes/TestFol/TestFolViewController.m; sourceTree = "<group>"; };
 		A66F39EF4F76F56875EA245C5E6133F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A800DB600FDBAB2F7FF2FA8D18B76229 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		AA874D3F7C208FFD3088A0CF6E018E04 /* YYTextParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextParser.m; path = YYText/String/YYTextParser.m; sourceTree = "<group>"; };
@@ -622,6 +626,8 @@
 			children = (
 				DFE1A6515DD50D89A4679906B4C4034D /* TestViewController.h */,
 				DC66176C056D119C925F895DF0848409 /* TestViewController.m */,
+				A276CDE221BFB9EE00C52C15 /* TestFolViewController.h */,
+				A276CDE321BFB9EE00C52C15 /* TestFolViewController.m */,
 				A276CDDD21BFB41800C52C15 /* Folder */,
 				736FEC02C74330B52BA5D631401EAA4A /* Pod */,
 				D36A8E9ABCA64E09E80A41AAF45C1091 /* Support Files */,
@@ -772,6 +778,7 @@
 				FF12B4BE37652AC565ED618C106CFE10 /* AFNetworkActivityIndicatorManager.h in Headers */,
 				88A52F2DE87FAAEF79B420CC9B6BDE80 /* AFNetworking-umbrella.h in Headers */,
 				9D380619079479C622272E2C77FCD289 /* AFNetworking.h in Headers */,
+				A276CDE421BFB9EE00C52C15 /* TestFolViewController.h in Headers */,
 				66340E06FB146280E83112B966E563C3 /* AFNetworkReachabilityManager.h in Headers */,
 				901790CB7729E8871AE5DE99E486792B /* AFSecurityPolicy.h in Headers */,
 				D491FD44351A11016A957CA81ABE0EC5 /* AFURLRequestSerialization.h in Headers */,
@@ -961,6 +968,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A276CDE521BFB9EE00C52C15 /* TestFolViewController.m in Sources */,
 				9486D80CC092F8ACB2355D5C94A155E3 /* AFAutoPurgingImageCache.m in Sources */,
 				5A4C39ACCE4CE7B6C69C736F48087759 /* AFHTTPSessionManager.m in Sources */,
 				6A5E05D187005E863177B45D58905C71 /* AFImageDownloader.m in Sources */,
