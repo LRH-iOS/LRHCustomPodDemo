@@ -1,7 +1,5 @@
 use_frameworks!
 
-inhibit_all_warnings!
-
 target 'LRHCustomPodDemo_Example' do
   pod 'LRHCustomPodDemo', :path => '../'
 
