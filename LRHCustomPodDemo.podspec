@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LRHCustomPodDemo'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'Test LRHCustomPodDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,13 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'LRHCustomPodDemo/Classes/Folder/**/*.{h,m}'
+  
+  s.subspec 'Folder' do |Folder|
+      Folder.source_files = 'GYLBusinessUI/Classes/Folder/**/*.{h,m}'
+  end
+  s.subspec 'TestFol' do |testFol|
+      testFol.source_files = 'GYLBusinessUI/Classes/TestFol/**/*'
+  end
   
   # s.resource_bundles = {
   #   'LRHCustomPodDemo' => ['LRHCustomPodDemo/Assets/*.png']
