@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LRHCustomPodDemo'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'Test LRHCustomPodDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -28,9 +28,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/LRH-iOS/LRHCustomPodDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-  s.source_files = 'LRHCustomPodDemo/Classes/Folder/**/*.{h,m}'
-  s.source_files = 'LRHCustomPodDemo/Classes/TestFol/**/*'
+  s.ios.deployment_target = '9.0'
+  # 源码配置都放这里面
+  
+      s.subspec 'Folder' do |solder|
+          solder.source_files = 'LRHCustomPodDemo/Classes/Folder/**/*'
+      end
+      s.subspec 'TestFol' do |testFol|
+          testFol.source_files = 'LRHCustomPodDemo/Classes/TestFol/**/*'
+      end
+  
   
   # s.resource_bundles = {
   #   'LRHCustomPodDemo' => ['LRHCustomPodDemo/Assets/*.png']
@@ -40,4 +47,8 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking'#, :inhibit_warnings => true
   s.dependency 'YYText'
+  
+  
+  # 这一块原样拷贝即可（记得放在最后面）
+
 end

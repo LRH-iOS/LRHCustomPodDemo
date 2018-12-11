@@ -10,7 +10,8 @@
 #endif
 #endif
 
-#import "TestViewController.h"
+#import "FolderViewController.h"
+#import "TestFolViewController.h"
 
 FOUNDATION_EXPORT double LRHCustomPodDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char LRHCustomPodDemoVersionString[];

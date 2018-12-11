@@ -1,6 +1,6 @@
 {
   "name": "LRHCustomPodDemo",
-  "version": "0.1.3",
+  "version": "0.1.8",
   "summary": "Test LRHCustomPodDemo.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LRH-iOS/LRHCustomPodDemo",
@@ -13,12 +13,11 @@
   },
   "source": {
     "git": "https://github.com/LRH-iOS/LRHCustomPodDemo.git",
-    "tag": "0.1.3"
+    "tag": "0.1.8"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "LRHCustomPodDemo/Classes/**/*",
   "dependencies": {
     "AFNetworking": [
 
@@ -26,5 +25,15 @@
     "YYText": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Folder",
+      "source_files": "LRHCustomPodDemo/Classes/Folder/**/*"
+    },
+    {
+      "name": "TestFol",
+      "source_files": "LRHCustomPodDemo/Classes/TestFol/**/*"
+    }
+  ]
 }
